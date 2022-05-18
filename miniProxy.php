@@ -600,3 +600,4 @@ if (stripos($contentType, "text/html") !== false) {
   header("Content-Length: " . strlen($responseBody), true);
   echo $responseBody;
 }
+?>
